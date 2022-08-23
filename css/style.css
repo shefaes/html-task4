@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color: rgb(17, 16, 16);
+    overflow: auto;
+    padding: 30px 5rem;
+}
+
+#header .logo{
+    float: left;
+}
+.logo a{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+#header .navbar{
+    float: right;
+}
+.navbar a{
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 25px;
+}
+#welcome{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 14rem 0;
+}
+#welcome .first{
+    color: azure;
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+#welcome .second{
+    color: azure;
+    font-weight:bolder;
+    font-size: 70px;
+    margin-bottom: 5rem;
+}
+#welcome button{
+    padding: 2rem;
+    width: 20%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    cursor: pointer;
+    font-size: 20px;
+} 
+#service{
+    background-color: white;
+}
+#main{
+    text-align: center;
+    padding: 1rem;
+}
+#main h1{
+    font-size: 3rem;
+    margin: 1rem;
+}
+#main p{
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+}
+#service all{
+    float: left;
+}
+.box{
+width: 30%;
+height: 200px;
+background-color: rgb(250, 250, 250);
+border: 10px solid white;
+float: left;
+margin: 30px 1%;
+text-align: center;
+}
+.box h2{
+    size: 30px;
+    padding: 30px;
+}
+.box p{
+    size: 40px;
+    color: rgb(31, 29, 29);
+}
+#Portfolio{
+    background-color: rgb(232, 235, 238);
+}
+ #Portfolio .port{
+    text-align: center;
+
+ }
+
+
+
+
+
+
